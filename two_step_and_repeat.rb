@@ -8,6 +8,7 @@ def first_steps
   sleep(0.5)
   puts "Stop"
   sleep(1)
+end
   end
   
 first_steps  
@@ -28,8 +29,12 @@ def how_many_steps?
     puts "left"
   else
     puts"right"
-  
 end
+sleep(0.5)
+end
+end
+
+
 
 def break_dance
   # Write a solution that uses the same code as how_many_steps?, but breaks the
